@@ -1,6 +1,8 @@
 /**
  * Created by ivann on 27.03.15.
  */
+//local code review (vtegza): create separated package @ 01.04.15
+//local code review (vtegza): source folder should be named as src - not first @ 01.04.15
 public class Main {
 
     public static void main(String[] argv)
@@ -13,6 +15,7 @@ public class Main {
             }
             System.out.printf("%d parameters passed", argv.length);
         }
+        //local code review (vtegza): do code formatting @ 01.04.15
         else{System.out.println("No arguments were passed");}
 
 
